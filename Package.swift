@@ -1,13 +1,13 @@
-// swift-tools-version:5.7
+// swift-tools-version:5.8
 import PackageDescription
 
 let package = Package(
 	name: "FHIRModels",
 	platforms: [
-		.macOS(.v10_14),
-		.iOS(.v12),
-		.watchOS(.v5),
-		.tvOS(.v12),
+		.macOS(.v13),
+		.iOS(.v16),
+		.watchOS(.v9),
+		.tvOS(.v16),
 	],
 	products: [
 		.library(name: "ModelsDSTU2", targets: ["ModelsDSTU2"]),
